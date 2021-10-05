@@ -1,0 +1,28 @@
+form {
+    border: 1px solid #545454;
+    border-radius: 30px;
+    padding: 40px;
+
+    & button {
+
+        width: 100px ;
+        height: 50px;
+        border-radius: 30px;
+        background-color:black ;
+        color: white;
+        transition: background 0.5s;
+        &:hover{
+
+            background:linear-gradient( to right , rgb(0, 128, 49) ,rgb(255, 0, 234)  ,rgb(212, 0, 255) );
+        }
+    }
+    & input {
+        padding: 5px 20px;
+        border-radius: 30px;
+        width: 50%;
+        line-height: 16px;
+        margin: 10px 0;
+    }
+    
+}
+
